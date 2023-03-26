@@ -1,0 +1,15 @@
+name: 'Send Data to API'
+description: 'A GitHub Action to send data to a Node.js API endpoint'
+inputs:
+  api-url:
+    description: 'API endpoint URL'
+    required: true
+  api-key:
+    description: 'API key for authentication'
+    required: true
+  data:
+    description: 'Data to be sent as JSON string'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
