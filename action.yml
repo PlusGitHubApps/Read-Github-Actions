@@ -11,5 +11,5 @@ inputs:
     description: 'Data to be sent as JSON string'
     required: true
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: 'node12'
+  main: 'index.js'
